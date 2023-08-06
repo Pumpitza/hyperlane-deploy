@@ -7,7 +7,7 @@ import type { WarpRouteConfig } from '../src/warp/config';
 export const warpRouteConfig: WarpRouteConfig = {
   base: {
     // Chain name must be in the Hyperlane SDK or in the chains.ts config
-    chainName: 'anvil1',
+    chainName: 'mantlet',
     type: TokenType.native, //  TokenType.native or TokenType.collateral
     // If type is collateral, a token address is required:
     // address: '0x123...'
@@ -19,7 +19,7 @@ export const warpRouteConfig: WarpRouteConfig = {
   },
   synthetics: [
     {
-      chainName: 'anvil2',
+      chainName: 'goerli',
 
       // Optionally specify a name, symbol, and totalSupply
       // If not specified, the base token's properties will be used

@@ -6,3 +6,4 @@ artifacts/
 .yarn/install-state.gz
 .yarn/cache
 yarn-error.log
+build/

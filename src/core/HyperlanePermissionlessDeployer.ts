@@ -89,7 +89,7 @@ export class HyperlanePermissionlessDeployer {
     public readonly remotes: ChainName[],
     public readonly writeAgentConfig?: boolean,
     protected readonly logger = createLogger('HyperlanePermissionlessDeployer'),
-  ) {}
+  ) { }
 
   static async fromArgs(): Promise<HyperlanePermissionlessDeployer> {
     const multiProvider = getMultiProvider();
